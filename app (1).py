@@ -19,7 +19,8 @@ st.markdown("--- --- --- --- --- --- --- --- --- --- ")
 col1, col2 = st.columns(2)
 
 with col1:
-    if st.button('Display Ages', help='Click to see ages')
+    if st.button('Display Ages', help='Click to see ages'):
+
         st.subheader("Family Ages:")
         # Display ages in the requested format and order with HTML styling
         html_output = f'''
